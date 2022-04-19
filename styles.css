@@ -74,6 +74,11 @@ li {
   color: #ec5242;
   margin-top: 10px;
   padding-left: 3%;
+  background-image: url(art/h1_bg.jpg);
+  background-size: contain;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #ff1900a9;
+  -webkit-font-smoothing: antialiased;
 }
 
 .message {
@@ -147,9 +152,14 @@ li {
   height: auto;
   overflow: auto;
   background: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.1);
   display: grid;
   grid-template-columns:  15% 26% 59%;
   margin: 5px 8px;
+}
+
+.programList:hover {
+  border: 2px solid #fff;
 }
 
 .programList img {
@@ -206,6 +216,10 @@ li {
   display: grid;
   grid-template-columns: 25% 75%;
   margin: 0 2.5% 10% 2.5%;
+}
+
+.hideSpeakers {
+  display: none;
 }
 
 .speakers img {
@@ -405,5 +419,81 @@ li {
     font-size: 22px;
   }
 
+  .mainProgram h2 {
+    margin-top: 5%;
+    font-weight: 600;
+  }
+
+  .programList-container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+  }
+
+  .programList {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 15%;
+    height: 30%;
+    margin: 2px;
+    padding: 8px;
+    text-align: center;
+  }
+
+  .programList img {
+    width: 40%;
+    height: auto;
+  }
+
+  .programList p {
+    width: 90%;
+  }
+
+  .mainProgram button {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1.5px solid #fff;
+    height: auto;
+    width: auto;
+  }
+
+  .featuredSpeakers {
+    display: flex;
+    flex-flow: column nowrap;
+    padding-bottom: 100px;
+  }
+
+  .featuredSpeakers h2 {
+    font-weight: 600;
+  }
+
+  .speakers-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  .speakers {
+    width: 40%;
+    margin: 5px 5px 50px 5px;
+  }
+
+  .hideSpeakers {
+    display: grid;
+  }
+
+  .featuredSpeakers button {
+    display: none;
+  }
+
+  .partner h2 {
+    font-weight: 600;
+  }
+
+  .partners a {
+    width: 10%;
+  }
+  
 
 }
