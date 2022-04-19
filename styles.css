@@ -29,7 +29,7 @@ button {
 .header .logo {
   align-self: center;
   text-align: center;
-  width: 15%;
+  width: 70px;
   height: auto;
   padding-left: 25%;
 }
@@ -295,7 +295,7 @@ button {
 }
 
 .footer .logo {
-  width: 15%;
+  width: 70px;
   height: auto;
 }
 
