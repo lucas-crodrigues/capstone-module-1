@@ -308,6 +308,7 @@ li {
 .partners img {
   width: 100%;
   height: auto;
+  filter: grayscale(1);
 }
 
 .footer {
@@ -391,6 +392,7 @@ li {
 
   .mainPage h1 {
     font-size: 68px;
+    margin-bottom: 10px;
   }
 
   .message {
