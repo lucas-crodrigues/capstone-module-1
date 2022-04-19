@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+  margin: 0;
+}
+
+.content {
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+  background-color: #ededed;
+}
+
+button {
+  cursor: pointer;
+  border-style: none;
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-flow: row-reverse;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header .logo {
+  align-self: center;
+  text-align: center;
+  width: 70px;
+  height: auto;
+  padding-left: 25%;
+}
+
+.hamburguerIcon {
+  height: 35%;
+  width: 35%;
+  padding: 15px;
+}
