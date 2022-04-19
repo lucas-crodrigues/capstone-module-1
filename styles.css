@@ -5,6 +5,13 @@
   display: flex;
   flex-flow: column wrap;
   width: 100%;
+  background-color: #ededed;
+}
+
+button {
+  cursor: pointer;
+  border-style: none;
+  text-align: center;
 }
 
 .hide {
@@ -19,10 +26,12 @@
   align-items: center;
 }
 
-.logo {
+.header .logo {
   align-self: center;
-  width: 100%;
   text-align: center;
+  width: 15%;
+  height: auto;
+  padding-left: 25%;
 }
 
 .hamburguerIcon {
@@ -154,17 +163,14 @@
 
 .mainProgram button {
   margin: 5% auto;
-  text-align: center;
   background-color: #ec5242;
   color: #fff;
   height: 80px;
   width: 80%;
-  border-style: none;
   font-family: 'Ubuntu', sans-serif;
   margin: 10% auto;
   font-size: 22px;
   border: #ec5242 2px solid;
-  cursor: pointer;
 }
 
 .mainProgram button:hover {
@@ -190,9 +196,117 @@
 .speakers {
   display: grid;
   grid-template-columns: 25% 75%;
-  margin: 2.5%;
+  margin: 0 2.5% 10% 2.5%;
 }
 
 .speakers img {
-  size: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.speakersInfo {
+  display: flex;
+  flex-flow: column;
+  padding-left: 13px;
+}
+
+.speakersInfo h3 {
+  color: #272a31;
+  font-family: 'Lato', sans-serif;
+  margin: 2px;
+}
+
+.speakersInfo h4 {
+  color: #ec5242;
+  font-family: 'Lato', sans-serif;
+  margin: 2px;
+  font-weight: 400;
+}
+
+.speakersInfo div {
+  border-bottom: 1.5px solid rgb(168, 166, 166);
+  width: 25px;
+  margin: 10px 5px;
+}
+
+.speakersInfo p {
+  color: #272a31;
+  font-family: 'Lato', sans-serif;
+  margin: 2px;
+  font-size: 12px;
+}
+
+.featuredSpeakers button {
+  width: 100%;
+  height: 50px;
+  border: 1.5px solid rgb(168, 166, 166);
+  border-radius: 3px;
+  background-color: transparent;
+  color: #272a31;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 21px;
+  margin-bottom: 10%;
+}
+
+.featuredSpeakers button:hover {
+  background-color: #ec5242;
+  color: #fff;
+}
+
+.partner {
+  background-color: #272a31;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.partner h2 {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+  margin: 65% auto 0 auto;
+}
+
+.partners {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.partners a {
+  width: 20%;
+  margin: 0 30px 25px 30px;
+}
+
+.partners img {
+  width: 100%;
+  height: auto;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100px;
+}
+
+.footer .logo {
+  width: 15%;
+  height: auto;
+}
+
+.footer p {
+  color: #272a31;
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.footer img {
+  width: 100%;
+  height: auto;
 }
