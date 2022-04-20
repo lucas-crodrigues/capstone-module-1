@@ -410,7 +410,7 @@ li {
   display: none;
 }
 
-@media (min-width: 786px) {
+@media (min-width: 768px) {
   .mainPage{
     background-image: url(art/bg_desktop_main.png);
     background-size: cover;

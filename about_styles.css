@@ -276,7 +276,7 @@ li {
   display: none;
 }
 
-@media (min-width: 786px) {
+@media (min-width: 768px) {
   .aboutMain{
     background: #f7f7f8 url(art/bg_mobile_about.png) center no-repeat;
     padding: 0 0 150px 0;
