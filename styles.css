@@ -272,8 +272,8 @@ li {
 }
 
 .speakerImg {
-  height: 120px;
-  width: 120px;
+  height: fit-content;
+  width: fit-content;
   background-image: url(Art/speaker_bg.svg);
   background-position: top left;
   background-size: 50% 50%;
@@ -283,9 +283,7 @@ li {
 .speakers img {
   width: 90%;
   height: 90%;
-  position: relative;
-  top: 10%;
-  left: 10%;
+  padding: 10% 0 0 10%;
 }
 
 .speakersInfo {
