@@ -409,6 +409,7 @@ li {
     align-items: flex-start;
     margin-left: 44px;
     height: auto;
+    width: auto;
   }
 
   .dateLocation h2 {
@@ -496,6 +497,13 @@ li {
   .partners a {
     width: 10%;
   }
-  
 
+  .footer {
+    height: 150px;
+  }
+
+  .footer p {
+    font-size: 20px;
+    font-weight: 400;
+  }
 }
