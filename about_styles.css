@@ -17,6 +17,10 @@ button {
   text-align: center;
 }
 
+li {
+  list-style: none;
+}
+
 .hide {
   display: none;
 }
@@ -179,6 +183,7 @@ button {
 .partners img {
   width: 100%;
   height: auto;
+  filter: grayscale(1);
 }
 
 .footer {
@@ -203,4 +208,102 @@ button {
 .footer img {
   width: 100%;
   height: auto;
+}
+
+@media (min-width: 786px) {
+  .aboutMain{
+    background: #f7f7f8 url(art/bg_mobile_about.png) center no-repeat;
+    padding: 0 0 150px 0;
+  }
+
+  .header {
+    background-color: #fff;
+    padding: 0%;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+  }
+
+  .header .logo {
+    padding: 5px;
+  }
+
+  .hamburguerIcon {
+    display: none;
+  }
+
+  .mobilemenu ul {
+    display: flex;
+  }
+
+  .mobilemenu li {
+    color: #272a31;
+    font-family: 'Lato', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    padding: 5px 15px;
+  }
+
+  .mobilemenu a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .mobilemenu a:hover {
+    color: #ec5242;
+  }
+
+  .aboutMain h3 {
+    display: none;
+  }
+
+  .aboutMain h1 {
+    padding: 10% 0 0 0;
+    font-size: 52px;
+    width: 50%;
+  }
+
+  .message {
+    width: 50%;
+  }
+
+  .contact {
+    margin: 3%;
+  }
+
+  .pastEvents {
+    padding-bottom: 10%;
+  }
+
+  .pastEvents p {
+    padding-bottom: 5%;
+  }
+
+  .buttons-container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+  }
+
+  .buttons-container button {
+    width: 30%;
+    margin: 3px;
+  }
+
+  .partner {
+    display: none;
+  }
+
+  .footer {
+    background-color: #272a31;
+    height: 150px;
+  }
+
+  .footer img, .footer p {
+    filter: invert(1);
+    font-size: 20px;
+    font-weight: 400;
+  }
+
 }
