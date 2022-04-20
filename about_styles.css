@@ -199,10 +199,22 @@ li {
   background-repeat: no-repeat;
 }
 
+.button2021 p {
+  color: #fff;
+  font-size: 27px;
+  font-weight: 600;
+}
+
 .button2020 {
   background-image: url(art/button_2020.png);
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.button2020 p {
+  color: #fff;
+  font-size: 27px;
+  font-weight: 600;
 }
 
 .pastEvents button:hover {
