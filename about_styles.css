@@ -53,6 +53,7 @@ li {
   height: 35%;
   width: 35%;
   padding: 15px;
+  cursor: pointer;
 }
 
 .mobilemenu {
@@ -67,7 +68,7 @@ li {
   left: 0;
   bottom: 0;
   pointer-events: all;
-  user-select: all;
+  user-select: inherit;
 }
 
 .closeMenu {
