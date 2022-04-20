@@ -22,6 +22,11 @@ li {
   list-style: none;
 }
 
+.partners a {
+  width: 20%;
+  margin: 0 30px 25px 30px;
+}
+
 .header {
   width: 100%;
   display: flex;
@@ -125,7 +130,6 @@ li {
   background-image: url(art/h1_bg.jpg);
   background-size: contain;
   -webkit-background-clip: text;
-  background-clip: text;
   -webkit-text-fill-color: #ff1900a9;
   -webkit-font-smoothing: antialiased;
 }
@@ -162,6 +166,19 @@ li {
   font-size: 15px;
 }
 
+.featuredSpeakers button {
+  width: 95%;
+  height: 50px;
+  border: 1.5px solid rgb(168, 166, 166);
+  border-radius: 3px;
+  background-color: transparent;
+  color: #272a31;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 21px;
+  margin: 0 2.5% 10% 2.5%;
+}
+
 .mainProgram {
   background-color: #272a31;
   background-image: url(art/bg_mobile_program.png);
@@ -194,16 +211,14 @@ li {
 .programList {
   width: calc(100% - 16px);
   position: relative;
-  margin: 0 0 0.5em 0;
   padding: 16px 0;
   vertical-align: middle;
-  display: table;
   height: auto;
   overflow: auto;
   background: rgba(255, 255, 255, 0.1);
   border: 2px solid rgba(255, 255, 255, 0.1);
   display: grid;
-  grid-template-columns:  15% 26% 59%;
+  grid-template-columns: 15% 26% 59%;
   margin: 5px 8px;
 }
 
@@ -230,7 +245,6 @@ li {
 }
 
 .mainProgram button {
-  margin: 5% auto;
   background-color: #ec5242;
   color: #fff;
   height: 80px;
@@ -272,7 +286,7 @@ li {
 }
 
 .speakerImg {
-  height: fit-content;
+  height: max-content;
   width: fit-content;
   background-image: url(Art/speaker_bg.svg);
   background-position: top left;
@@ -318,19 +332,6 @@ li {
   font-size: 12px;
 }
 
-.featuredSpeakers button {
-  width: 95%;
-  height: 50px;
-  border: 1.5px solid rgb(168, 166, 166);
-  border-radius: 3px;
-  background-color: transparent;
-  color: #272a31;
-  font-family: 'Lato', sans-serif;
-  font-weight: 900;
-  font-size: 21px;
-  margin: 0 2.5% 10% 2.5%;
-}
-
 .featuredSpeakers button:hover {
   background-color: #ec5242;
   color: #fff;
@@ -357,11 +358,6 @@ li {
   justify-content: center;
   align-items: center;
   padding-bottom: 50px;
-}
-
-.partners a {
-  width: 20%;
-  margin: 0 30px 25px 30px;
 }
 
 .partners img {
@@ -409,7 +405,7 @@ li {
 }
 
 @media (min-width: 768px) {
-  .mainPage{
+  .mainPage {
     background-image: url(art/bg_desktop_main.png);
     background-size: cover;
     padding: 0 0 150px 0;
@@ -446,6 +442,10 @@ li {
     font-size: 19px;
     font-weight: 400;
     padding: 5px 15px;
+  }
+
+  .partners a {
+    width: 10%;
   }
 
   .navigation a {
@@ -568,10 +568,6 @@ li {
 
   .partner h2 {
     font-weight: 600;
-  }
-
-  .partners a {
-    width: 10%;
   }
 
   .footer {

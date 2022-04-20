@@ -21,10 +21,6 @@ li {
   list-style: none;
 }
 
-.hide {
-  display: none;
-}
-
 .divline {
   width: 53px;
   height: 16px;
@@ -59,6 +55,17 @@ li {
   width: 35%;
   padding: 15px;
   cursor: pointer;
+}
+
+.partners a {
+  width: 20%;
+  margin: 0 30px 25px 30px;
+}
+
+.contact a {
+  font-family: 'Lato', sans-serif;
+  color: #272a31;
+  font-weight: 600;
 }
 
 .mobilemenu {
@@ -145,7 +152,6 @@ li {
   line-height: 150%;
   font-size: 14px;
   height: auto;
-  text-align: justify;
   border: rgb(207, 206, 206) solid 1.5px;
   background-color: #fff;
   text-align: center;
@@ -154,12 +160,6 @@ li {
 .contact {
   font-family: 'Lato', sans-serif;
   color: #272a31;
-}
-
-.contact a {
-  font-family: 'Lato', sans-serif;
-  color: #272a31;
-  font-weight: 600;
 }
 
 .pastEvents {
@@ -232,11 +232,6 @@ li {
   padding-bottom: 50px;
 }
 
-.partners a {
-  width: 20%;
-  margin: 0 30px 25px 30px;
-}
-
 .partners img {
   width: 100%;
   height: auto;
@@ -277,7 +272,7 @@ li {
 }
 
 @media (min-width: 768px) {
-  .aboutMain{
+  .aboutMain {
     background: #f7f7f8 url(art/bg_mobile_about.png) center no-repeat;
     padding: 0 0 150px 0;
   }
@@ -370,7 +365,7 @@ li {
     height: 150px;
   }
 
-.footer p {
+  .footer p {
     filter: invert(1);
     font-size: 20px;
     font-weight: 400;
