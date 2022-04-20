@@ -6,12 +6,12 @@ const closeMenu = document.querySelector('.closeMenu');
 hamburguer.addEventListener('click', () => {
   body.classList.add('lockScroll');
   mobilemenu.classList.remove('hide');
-})
+});
 
 closeMenu.addEventListener('click', () => {
   body.classList.remove('lockScroll');
   mobilemenu.classList.add('hide');
-})
+});
 
 const speakersDetails = [
   {
@@ -19,44 +19,44 @@ const speakersDetails = [
     picture: 'Art/speaker_01.png',
     name: 'Dra. Jane Goodall',
     occupation: 'World-renowned ethologist and conservationist',
-    description: 'World-renowned ethologist and conservationist, famous for her study of wild chimpanzees in Gombe, Tanzania.'
+    description: 'World-renowned ethologist and conservationist, famous for her study of wild chimpanzees in Gombe, Tanzania.',
   },
   {
     id: 2,
     picture: 'Art/speaker_02.png',
     name: 'Sarah Bouchie',
     occupation: "Lego Foundation's Director of Impact",
-    description: "Sarah leads the development and implementation of the Foundation's initiatives, which aim to inspire and equip the world to embrace learning through games"
+    description: "Sarah leads the development and implementation of the Foundation's initiatives, which aim to inspire and equip the world to embrace learning through games",
   },
   {
     id: 3,
     picture: 'Art/speaker_03.png',
     name: 'Kevin McGrew',
     occupation: 'Director of the Institute of Applied Psychometrics',
-    description: 'PhD in educational psychology from the University of Minnesota and visiting professor at the same university'
+    description: 'PhD in educational psychology from the University of Minnesota and visiting professor at the same university',
   },
   {
     id: 4,
     picture: 'Art/speaker_04.png',
     name: 'Roberto Lent',
     occupation: 'Post-doctorate in Biophysics at the Massachusetts Institute of Technology',
-    description: 'He is a member of the Brazilian Academy of Sciences and Coordinator of the National Network of Science for Education'
+    description: 'He is a member of the Brazilian Academy of Sciences and Coordinator of the National Network of Science for Education',
   },
   {
     id: 5,
     picture: 'Art/speaker_05.png',
     name: 'Ricardo Primi',
     occupation: 'Doctor in School Psychology and Human Development from USP/Yale',
-    description: 'Associate professor at the Universidade São Francisco and part of the scientific council of the Ayrton Senna Institute'
+    description: 'Associate professor at the Universidade São Francisco and part of the scientific council of the Ayrton Senna Institute',
   },
   {
     id: 6,
     picture: 'Art/speaker_06.png',
     name: 'William Kamkwamba',
     occupation: 'Inventor and bestselling author',
-    description: 'William recounts his story in his memoir The Boy Who Harnessed the Wind: Creating Currents of Electricity and Hope'
-  }
-]
+    description: 'William recounts his story in his memoir The Boy Who Harnessed the Wind: Creating Currents of Electricity and Hope',
+  },
+];
 
 const featuredSpeakers = document.querySelector('.featuredSpeakers');
 
