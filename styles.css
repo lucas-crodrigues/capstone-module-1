@@ -22,10 +22,6 @@ li {
   list-style: none;
 }
 
-.hide {
-  display: none;
-}
-
 .header {
   width: 100%;
   display: flex;
@@ -47,6 +43,52 @@ li {
   height: 35%;
   width: 35%;
   padding: 15px;
+}
+
+.mobilemenu {
+  display: flex;
+  flex-flow: column;
+  background-color: #272a31bd;
+  height: 100vh;
+  width: 80%;
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  pointer-events: all;
+  user-select: all;
+}
+
+.closeMenu {
+  height: 40px;
+  width: 40px;
+  font-size: 40px;
+  position: relative;
+  left: 87%;
+  top: 1%;
+  background-color: transparent;
+  color: #fff;
+}
+
+.closeMenu:hover {
+  color: #ec5242;
+}
+
+.mobilemenu li {
+  margin: 15px 10px;
+}
+
+.mobilemenu a {
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  font-size: 19px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.mobilemenu a:hover {
+  color: #ec5242;
 }
 
 .mainPage {
@@ -335,6 +377,20 @@ li {
   height: auto;
 }
 
+.hide {
+  display: none;
+}
+
+.lockScroll {
+  overflow: hidden;
+  pointer-events: none;
+  user-select: none;
+}
+
+.navigation {
+  display: none;
+}
+
 @media (min-width: 786px) {
   .mainPage{
     background-image: url(art/bg_desktop_main.png);
@@ -359,11 +415,15 @@ li {
     display: none;
   }
 
-  .mobilemenu ul {
+  .mobilemenu {
+    display: none;
+  }
+
+  .navigation {
     display: flex;
   }
 
-  .mobilemenu li {
+  .navigation li {
     color: #272a31;
     font-family: 'Lato', sans-serif;
     font-size: 19px;
@@ -371,12 +431,12 @@ li {
     padding: 5px 15px;
   }
 
-  .mobilemenu a {
+  .navigation a {
     text-decoration: none;
     color: inherit;
   }
 
-  .mobilemenu a:hover {
+  .navigation a:hover {
     color: #ec5242;
   }
 
