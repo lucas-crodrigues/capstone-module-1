@@ -7,15 +7,23 @@
   <title>Document</title>
   <link rel="stylesheet" href="about_styles.css">
 </head>
-<body>
+<body class="body">
   <div class="content">
     <section class="aboutMain" id="aboutMain">
       <div class="header">
         <div class="logo"><a href="index.html"><img src="art/logo_placeholder.svg" alt=""></a></div>
-        <nav>
-          <div class="mobilemenu">
-            <img class="hamburguerIcon" src="Art/mobile_menu.png" alt="Mobile menu hamburguer Icon">
-            <ul class="hide">
+        <nav>  
+          <img class="hamburguerIcon" src="Art/mobile_menu.png" alt="Mobile menu hamburguer Icon">
+          <ul class="navigation">
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Program</a></li>
+            <li><a href="#">Join</a></li>
+            <li><a href="#">Sponsor</a></li>
+            <li><a href="#">News</a></li>
+          </ul>
+          <div class="mobilemenu hide">
+            <button class="closeMenu">&times;</button>
+            <ul class="mobilemenuOptions">
               <li><a href="about.html">About</a></li>
               <li><a href="#">Program</a></li>
               <li><a href="#">Join</a></li>
@@ -74,5 +82,6 @@
       <div><p>2015 Creative Commons Korea. <br>Some Rights Reserved.</p></div>
     </section>
   </div>
+  <script src="scripts.js"></script>
 </body>
 </html>
