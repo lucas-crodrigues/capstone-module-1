@@ -60,7 +60,7 @@ const speakersDetails = [
 
 const featuredSpeakers = document.querySelector('.featuredSpeakers');
 
-function loadSpeakers() {
+function loadSpeakers() { // eslint-disable-line no-unused-vars
   featuredSpeakers.innerHTML = `
         <div>
           <h2>Featured Speakers</h2>
@@ -125,7 +125,7 @@ function loadSpeakers() {
         <button class="showMore" onclick="showSpeakers();">MORE ▼</button>`;
 }
 
-function showSpeakers() {
+function showSpeakers() { // eslint-disable-line no-unused-vars
   const showMore = document.querySelector('.showMore');
   const speakers = document.querySelectorAll('.speakers');
   speakers.forEach((speaker) => {
