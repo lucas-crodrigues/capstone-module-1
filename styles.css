@@ -120,6 +120,7 @@ li {
   background-image: url(art/h1_bg.jpg);
   background-size: contain;
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: #ff1900a9;
   -webkit-font-smoothing: antialiased;
 }
