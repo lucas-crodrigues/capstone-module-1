@@ -39,6 +39,11 @@ li {
   padding-left: 25%;
 }
 
+.logo img {
+  height: 50px;
+  width: 125px;
+}
+
 .hamburguerIcon {
   height: 35%;
   width: 35%;
@@ -266,9 +271,21 @@ li {
   display: none;
 }
 
+.speakerImg {
+  height: 120px;
+  width: 120px;
+  background-image: url(Art/speaker_bg.svg);
+  background-position: top left;
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+}
+
 .speakers img {
-  max-width: 100%;
-  height: auto;
+  width: 90%;
+  height: 90%;
+  position: relative;
+  top: 10%;
+  left: 10%;
 }
 
 .speakersInfo {
@@ -375,8 +392,8 @@ li {
 }
 
 .footer img {
-  width: 100%;
-  height: auto;
+  height: 50px;
+  width: 125px;
 }
 
 .hide {

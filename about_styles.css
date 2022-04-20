@@ -49,6 +49,11 @@ li {
   padding-left: 25%;
 }
 
+.logo img {
+  height: 50px;
+  width: 125px;
+}
+
 .hamburguerIcon {
   height: 35%;
   width: 35%;
@@ -186,19 +191,23 @@ li {
   width: 90%;
   height: 200px;
   margin-bottom: 5%;
-  background-image: url(art/button_placeholder.jpg);
+}
+
+.button2021 {
+  background-image: url(art/button_2021.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  filter: hue-rotate(0deg);
+}
+
+.button2020 {
+  background-image: url(art/button_2020.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .pastEvents button:hover {
   filter: grayscale(100%);
 }
-
-
-
-
 
 .partner {
   background-color: #272a31;
@@ -251,11 +260,6 @@ li {
   font-family: 'Lato', sans-serif;
   font-size: 13px;
   font-weight: 300;
-}
-
-.footer img {
-  width: 100%;
-  height: auto;
 }
 
 .hide {
@@ -366,7 +370,7 @@ li {
     height: 150px;
   }
 
-  .footer img, .footer p {
+.footer p {
     filter: invert(1);
     font-size: 20px;
     font-weight: 400;
