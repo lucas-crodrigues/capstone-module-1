@@ -185,9 +185,6 @@ li {
 
 .pastEvents button {
   font-family: 'Lato', sans-serif;
-  color: #fff;
-  font-size: 25px;
-  font-weight: 500;
   width: 90%;
   height: 200px;
   margin-bottom: 5%;
@@ -197,9 +194,6 @@ li {
   background-image: url(art/button_2021.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-.button2021 p {
   color: #fff;
   font-size: 27px;
   font-weight: 600;
@@ -209,9 +203,6 @@ li {
   background-image: url(art/button_2020.png);
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-.button2020 p {
   color: #fff;
   font-size: 27px;
   font-weight: 600;
@@ -262,7 +253,7 @@ li {
   height: auto;
 }
 
-.footer p {
+.footer h4 {
   color: #272a31;
   font-family: 'Lato', sans-serif;
   font-size: 13px;
@@ -377,7 +368,7 @@ li {
     height: 150px;
   }
 
-  .footer p {
+  .footer h4 {
     filter: invert(1);
     font-size: 20px;
     font-weight: 400;
