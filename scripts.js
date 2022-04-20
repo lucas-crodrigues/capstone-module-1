@@ -17,7 +17,7 @@ const speakersDetails = [
   {
     id: 1,
     picture: 'Art/speaker_01.png',
-    name: 'Dra. Jane Goodall',
+    name: 'Jane Goodall',
     occupation: 'World-renowned ethologist and conservationist',
     description: 'World-renowned ethologist and conservationist, famous for her study of wild chimpanzees in Gombe, Tanzania.',
   },
