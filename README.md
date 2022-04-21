@@ -3,9 +3,9 @@
 
 ## Built With
 
-HTML/CSS
-Javascript
-Visual Studio Code
+- HTML/CSS 
+- Javascript 
+- Visual Studio Code
 
 ## Live Demo
 
