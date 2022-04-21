@@ -9,7 +9,11 @@ Visual Studio Code
 
 ## Live Demo
 
- N/A
+ Check out the live demo [here](https://lucas-crodrigues.github.io/capstone-module-1/index.html).
+
+ ## Loom video
+
+ Check out my [Loom video](https://www.loom.com/share/4cbc3ed299894b859ee2a835471e003b) presenting this project.
 
 ## Getting Started
 
