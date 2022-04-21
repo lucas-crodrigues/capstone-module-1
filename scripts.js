@@ -85,7 +85,7 @@ function loadSpeakers() { // eslint-disable-line no-unused-vars
               <p>${speakersDetails[1].description}</p>
             </div>
           </div>
-          <div class="speakers hideSpeakers" id="3">
+          <div class="speakers collapse hideSpeakers" id="3">
             <div class="speakerImg"><img src="${speakersDetails[2].picture}" alt=""></div>
             <div class="speakersInfo">
               <h3>${speakersDetails[2].name}</h3>
@@ -94,7 +94,7 @@ function loadSpeakers() { // eslint-disable-line no-unused-vars
               <p>${speakersDetails[2].description}</p>
             </div>
           </div>
-          <div class="speakers hideSpeakers" id="4">
+          <div class="speakers collapse hideSpeakers" id="4">
             <div class="speakerImg"><img src="${speakersDetails[3].picture}" alt=""></div>
             <div class="speakersInfo">
               <h3>${speakersDetails[3].name}</h3>
@@ -103,7 +103,7 @@ function loadSpeakers() { // eslint-disable-line no-unused-vars
               <p>${speakersDetails[3].description}</p>
             </div>
           </div>
-          <div class="speakers hideSpeakers" id="5">
+          <div class="speakers collapse hideSpeakers" id="5">
             <div class="speakerImg"><img src="${speakersDetails[4].picture}" alt=""></div>
             <div class="speakersInfo">
               <h3>${speakersDetails[4].name}</h3>
@@ -112,7 +112,7 @@ function loadSpeakers() { // eslint-disable-line no-unused-vars
               <p>${speakersDetails[4].description}</p>
             </div>
           </div>
-          <div class="speakers hideSpeakers" id="6">
+          <div class="speakers collapse hideSpeakers" id="6">
             <div class="speakerImg"><img src="${speakersDetails[5].picture}" alt=""></div>
             <div class="speakersInfo">
               <h3>${speakersDetails[5].name}</h3>
@@ -125,11 +125,23 @@ function loadSpeakers() { // eslint-disable-line no-unused-vars
         <button class="showMore" onclick="showSpeakers();">MORE ▼</button>`;
 }
 
+let status = "less";
+
 function showSpeakers() { // eslint-disable-line no-unused-vars
   const showMore = document.querySelector('.showMore');
-  const speakers = document.querySelectorAll('.speakers');
-  speakers.forEach((speaker) => {
-    speaker.classList.remove('hideSpeakers');
-  });
-  showMore.classList.add('hide');
+  const speakers = document.querySelectorAll('.collapse');
+  
+  if (status == "less") {
+    speakers.forEach((speaker) => {
+      speaker.classList.remove('hideSpeakers');
+    });
+    showMore.innerHTML = 'LESS ▲';
+    status = "more";
+  } else if (status == "more") {
+    speakers.forEach((speaker) => {
+      speaker.classList.add('hideSpeakers');
+    });
+    showMore.innerHTML = 'MORE ▼';
+    status = "less";
+  }
 }
