@@ -108,7 +108,7 @@ li {
   background-size: 100% 100%;
   display: flex;
   flex-flow: column;
-  padding: 0% 5% 10% 5%;
+  padding: 0% 5% 15% 5%;
 }
 
 .mainPage h3 {
@@ -368,7 +368,7 @@ li {
 
 .footer {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   height: 100px;
 }
