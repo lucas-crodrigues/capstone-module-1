@@ -1,5 +1,9 @@
 # Portfolio Microverse
- First capstone project for the microverse curriculum
+This is the first capstone project in my Microverse journey.
+
+For this project, we were required to follow the template provided [here](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015), but fill it with the content of our choosing.
+
+My content is fictional but based on [this seminar](https://institutoayrtonsenna.org.br/pt-br/seminario-internacional-motivacao.html) by [Instituto Ayrton Senna](https://institutoayrtonsenna.org.br/en.html).
 
 ## Built With
 
