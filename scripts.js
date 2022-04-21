@@ -125,23 +125,23 @@ function loadSpeakers() { // eslint-disable-line no-unused-vars
         <button class="showMore" onclick="showSpeakers();">MORE ▼</button>`;
 }
 
-let status = "less";
+let status = 'less';
 
 function showSpeakers() { // eslint-disable-line no-unused-vars
   const showMore = document.querySelector('.showMore');
   const speakers = document.querySelectorAll('.collapse');
-  
-  if (status == "less") {
+
+  if (status === 'less') {
     speakers.forEach((speaker) => {
       speaker.classList.remove('hideSpeakers');
     });
     showMore.innerHTML = 'LESS ▲';
-    status = "more";
-  } else if (status == "more") {
+    status = 'more';
+  } else if (status === 'more') {
     speakers.forEach((speaker) => {
       speaker.classList.add('hideSpeakers');
     });
     showMore.innerHTML = 'MORE ▼';
-    status = "less";
+    status = 'less';
   }
 }
