@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+  margin: 0;
+}
+
+.content {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+}
+
+button {
+  cursor: pointer;
+  border-style: none;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+.divline {
+  width: 53px;
+  height: 16px;
+  border-bottom: 1px solid #ec5242;
+  margin: 0 auto 54px;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-flow: row-reverse;
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: 6%;
+}
+
+.header .logo {
+  align-self: center;
+  text-align: center;
+  width: 70px;
+  height: auto;
+  padding-left: 25%;
+}
+
+.logo img {
+  height: 50px;
+  width: 125px;
+}
+
+.hamburguerIcon {
+  height: 35%;
+  width: 35%;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.partners a {
+  width: 20%;
+  margin: 0 30px 25px 30px;
+}
+
+.contact a {
+  font-family: 'Lato', sans-serif;
+  color: #272a31;
+  font-weight: 600;
+}
+
+.mobilemenu {
+  display: flex;
+  flex-flow: column;
+  background-color: #272a31bd;
+  height: 100vh;
+  width: 80%;
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  pointer-events: all;
+  user-select: inherit;
+}
+
+.closeMenu {
+  height: 40px;
+  width: 40px;
+  font-size: 40px;
+  position: relative;
+  left: 87%;
+  top: 1%;
+  background-color: transparent;
+  color: #fff;
+}
+
+.closeMenu:hover {
+  color: #ec5242;
+}
+
+.mobilemenu li {
+  margin: 15px 10px;
+  text-align: left;
+}
+
+.mobilemenu a {
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  font-size: 19px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.mobilemenu a:hover {
+  color: #ec5242;
+}
+
+.aboutMain {
+  background-image: url(Art/bg_mobile_about.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 0% 5% 10% 5%;
+  background-color: rgb(245, 244, 244);
+  text-align: center;
+}
+
+.aboutMain h3 {
+  font-family: 'Lato', sans-serif;
+  color: #ec5242;
+  font-size: 23px;
+  margin-bottom: 0;
+  font-weight: 400;
+  padding-left: 3%;
+}
+
+.aboutMain h1 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: #ec5242;
+  margin-top: 10px;
+  padding-left: 3%;
+}
+
+.message {
+  font-family: 'Lato', sans-serif;
+  color: #272a31;
+  padding: 1em 0.5em;
+  line-height: 150%;
+  font-size: 14px;
+  height: auto;
+  border: rgb(207, 206, 206) solid 1.5px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.contact {
+  font-family: 'Lato', sans-serif;
+  color: #272a31;
+}
+
+.pastEvents {
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  padding-top: 40px;
+}
+
+.pastEvents h2 {
+  font-family: 'Ubuntu', sans-serif;
+  color: #272a31;
+  font-size: 30px;
+  font-weight: 800;
+  margin: 8px;
+}
+
+.pastEvents p {
+  font-family: 'Lato', sans-serif;
+  color: #272a31;
+  padding: 0 5% 15% 5%;
+}
+
+.pastEvents button {
+  font-family: 'Lato', sans-serif;
+  width: 90%;
+  height: 200px;
+  margin-bottom: 5%;
+}
+
+.button2021 {
+  background-image: url(Art/button_2021.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 27px;
+  font-weight: 600;
+}
+
+.button2020 {
+  background-image: url(Art/button_2020.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 27px;
+  font-weight: 600;
+}
+
+.pastEvents button:hover {
+  filter: grayscale(100%);
+}
+
+.partner {
+  background-color: #272a31;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.partner h2 {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+  margin: 65% auto 0 auto;
+}
+
+.partners {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.partners img {
+  width: 100%;
+  height: auto;
+  filter: grayscale(1);
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+}
+
+.footer .logo {
+  width: 70px;
+  height: auto;
+}
+
+.footer h4 {
+  color: #272a31;
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.hide {
+  display: none;
+}
+
+.lockScroll {
+  overflow: hidden;
+  pointer-events: none;
+  user-select: none;
+}
+
+.navigation {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .aboutMain {
+    background: #f7f7f8 url(Art/bg_mobile_about.png) center no-repeat;
+    padding: 0 0 150px 0;
+  }
+
+  .header {
+    background-color: #fff;
+    padding: 0%;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+  }
+
+  .header .logo {
+    padding: 5px;
+  }
+
+  .hamburguerIcon {
+    display: none;
+  }
+
+  .mobilemenu {
+    display: none;
+  }
+
+  .navigation {
+    display: flex;
+  }
+
+  .navigation li {
+    color: #272a31;
+    font-family: 'Lato', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    padding: 5px 15px;
+  }
+
+  .navigation a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .navigation a:hover {
+    color: #ec5242;
+  }
+
+  .aboutMain h3 {
+    display: none;
+  }
+
+  .aboutMain h1 {
+    padding: 10% 0 0 0;
+    font-size: 52px;
+    width: 50%;
+  }
+
+  .message {
+    width: 50%;
+  }
+
+  .contact {
+    margin: 3%;
+  }
+
+  .pastEvents {
+    padding-bottom: 10%;
+  }
+
+  .pastEvents p {
+    padding-bottom: 5%;
+  }
+
+  .buttons-container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+  }
+
+  .buttons-container button {
+    width: 30%;
+    margin: 3px;
+  }
+
+  .partner {
+    display: none;
+  }
+
+  .footer {
+    background-color: #272a31;
+    height: 150px;
+  }
+
+  .footer h4 {
+    filter: invert(1);
+    font-size: 20px;
+    font-weight: 400;
+  }
+}
