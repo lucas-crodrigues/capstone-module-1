@@ -116,7 +116,7 @@ li {
 }
 
 .aboutMain {
-  background-image: url(art/bg_mobile_about.png);
+  background-image: url(Art/bg_mobile_about.png);
   background-repeat: no-repeat;
   background-size: 100% auto;
   display: flex;
@@ -191,7 +191,7 @@ li {
 }
 
 .button2021 {
-  background-image: url(art/button_2021.jpg);
+  background-image: url(Art/button_2021.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
@@ -200,7 +200,7 @@ li {
 }
 
 .button2020 {
-  background-image: url(art/button_2020.png);
+  background-image: url(Art/button_2020.png);
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
@@ -276,7 +276,7 @@ li {
 
 @media (min-width: 768px) {
   .aboutMain {
-    background: #f7f7f8 url(art/bg_mobile_about.png) center no-repeat;
+    background: #f7f7f8 url(Art/bg_mobile_about.png) center no-repeat;
     padding: 0 0 150px 0;
   }
 

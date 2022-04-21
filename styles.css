@@ -181,7 +181,7 @@ li {
 
 .mainProgram {
   background-color: #272a31;
-  background-image: url(art/bg_mobile_program.png);
+  background-image: url(Art/bg_mobile_program.png);
   display: flex;
   flex-flow: column;
 }
@@ -406,7 +406,7 @@ li {
 
 @media (min-width: 768px) {
   .mainPage {
-    background-image: url(art/bg_desktop_main.png);
+    background-image: url(Art/bg_desktop_main.png);
     background-size: cover;
     padding: 0 0 150px 0;
   }
